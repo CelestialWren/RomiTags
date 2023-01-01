@@ -1,0 +1,33 @@
+[
+  {
+    "type": "java",
+    "name": "jar (in project RomiTags)",
+    "extensions": [
+      {
+        "name": "Sim DriverStation",
+        "libName": "/Users/lukasfiur/Desktop/RomiTags/build/jni/release/libhalsim_ds_socket.dylib",
+        "defaultEnabled": false
+      },
+      {
+        "name": "Sim GUI",
+        "libName": "/Users/lukasfiur/Desktop/RomiTags/build/jni/release/libhalsim_gui.dylib",
+        "defaultEnabled": true
+      },
+      {
+        "name": "Sim Websockets Client",
+        "libName": "/Users/lukasfiur/Desktop/RomiTags/build/jni/release/libhalsim_ws_client.dylib",
+        "defaultEnabled": true
+      },
+      {
+        "name": "Sim Websockets Server",
+        "libName": "/Users/lukasfiur/Desktop/RomiTags/build/jni/release/libhalsim_ws_server.dylib",
+        "defaultEnabled": true
+      }
+    ],
+    "environment": {
+      "HALSIMWS_HOST": "10.0.0.2"
+    },
+    "libraryDir": "/Users/lukasfiur/Desktop/RomiTags/build/jni/release",
+    "mainClassName": "frc.robot.Main"
+  }
+]

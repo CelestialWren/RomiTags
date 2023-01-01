@@ -1,0 +1,20 @@
+{
+  "NTProvider": {
+    "types": {
+      "/FMSInfo": "FMSInfo",
+      "/LiveWindow/RomiDrivetrain": "Subsystem",
+      "/LiveWindow/ShuffleboardManager": "Subsystem",
+      "/LiveWindow/Ungrouped/DifferentialDrive[1]": "DifferentialDrive",
+      "/LiveWindow/Ungrouped/PIDController[1]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[2]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[3]": "PIDController",
+      "/LiveWindow/Ungrouped/PIDController[4]": "PIDController",
+      "/LiveWindow/Ungrouped/Scheduler": "Scheduler",
+      "/LiveWindow/Vision": "Subsystem",
+      "/Shuffleboard/Vision/PIDTagDistance": "Command",
+      "/Shuffleboard/Vision/TurnToTag": "Command",
+      "/Shuffleboard/Vision/centerAndDistanceAlign": "Command",
+      "/Shuffleboard/Vision/centerOnTag": "Command"
+    }
+  }
+}
